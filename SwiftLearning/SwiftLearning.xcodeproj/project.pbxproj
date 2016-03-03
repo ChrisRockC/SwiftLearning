@@ -15,6 +15,7 @@
 		2AB78EF61C8808BF00AFC5BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB78EF41C8808BF00AFC5BA /* LaunchScreen.storyboard */; };
 		2AB78F011C8808BF00AFC5BA /* SwiftLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78F001C8808BF00AFC5BA /* SwiftLearningTests.m */; };
 		2AB78F0C1C8808BF00AFC5BA /* SwiftLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78F0B1C8808BF00AFC5BA /* SwiftLearningUITests.m */; };
+		2AB78F1B1C88098D00AFC5BA /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78F1A1C88098D00AFC5BA /* Struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2AB78F071C8808BF00AFC5BA /* SwiftLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB78F0B1C8808BF00AFC5BA /* SwiftLearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftLearningUITests.m; sourceTree = "<group>"; };
 		2AB78F0D1C8808BF00AFC5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB78F191C88098D00AFC5BA /* SwiftLearning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftLearning-Bridging-Header.h"; sourceTree = "<group>"; };
+		2AB78F1A1C88098D00AFC5BA /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +108,13 @@
 				2AB78EEA1C8808BE00AFC5BA /* AppDelegate.m */,
 				2AB78EEC1C8808BE00AFC5BA /* ViewController.h */,
 				2AB78EED1C8808BE00AFC5BA /* ViewController.m */,
+				2AB78F1A1C88098D00AFC5BA /* Struct.swift */,
 				2AB78EEF1C8808BE00AFC5BA /* Main.storyboard */,
 				2AB78EF21C8808BF00AFC5BA /* Assets.xcassets */,
 				2AB78EF41C8808BF00AFC5BA /* LaunchScreen.storyboard */,
 				2AB78EF71C8808BF00AFC5BA /* Info.plist */,
 				2AB78EE61C8808BE00AFC5BA /* Supporting Files */,
+				2AB78F191C88098D00AFC5BA /* SwiftLearning-Bridging-Header.h */,
 			);
 			path = SwiftLearning;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB78F1B1C88098D00AFC5BA /* Struct.swift in Sources */,
 				2AB78EEE1C8808BE00AFC5BA /* ViewController.m in Sources */,
 				2AB78EEB1C8808BE00AFC5BA /* AppDelegate.m in Sources */,
 				2AB78EE81C8808BE00AFC5BA /* main.m in Sources */,
@@ -413,10 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftLearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.SwiftLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftLearning/SwiftLearning-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -424,10 +433,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftLearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.SwiftLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftLearning/SwiftLearning-Bridging-Header.h";
 			};
 			name = Release;
 		};
