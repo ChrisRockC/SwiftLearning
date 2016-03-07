@@ -11,7 +11,7 @@ import UIKit
 class Struct: NSObject {
     
     struct Frame {
-        // Swift 属性：存储属性 已经 计算属性
+        // Swift 属性：存储属性  计算属性
         //1.1 存储属性；存储作用
         var x :Float
         var y :Float

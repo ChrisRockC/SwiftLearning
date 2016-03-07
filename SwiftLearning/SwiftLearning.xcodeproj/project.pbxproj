@@ -17,6 +17,7 @@
 		2AB78F0C1C8808BF00AFC5BA /* SwiftLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78F0B1C8808BF00AFC5BA /* SwiftLearningUITests.m */; };
 		2AB78F1B1C88098D00AFC5BA /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78F1A1C88098D00AFC5BA /* Struct.swift */; };
 		2AB78F1D1C892AF700AFC5BA /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78F1C1C892AF700AFC5BA /* SwiftViewController.swift */; };
+		2AF280501C8D754D00819E95 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2804F1C8D754D00819E95 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2AB78F191C88098D00AFC5BA /* SwiftLearning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftLearning-Bridging-Header.h"; sourceTree = "<group>"; };
 		2AB78F1A1C88098D00AFC5BA /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		2AB78F1C1C892AF700AFC5BA /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		2AF2804F1C8D754D00819E95 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				2AB78EEC1C8808BE00AFC5BA /* ViewController.h */,
 				2AB78EED1C8808BE00AFC5BA /* ViewController.m */,
 				2AB78F1A1C88098D00AFC5BA /* Struct.swift */,
+				2AF2804F1C8D754D00819E95 /* Person.swift */,
 				2AB78F1C1C892AF700AFC5BA /* SwiftViewController.swift */,
 				2AB78EEF1C8808BE00AFC5BA /* Main.storyboard */,
 				2AB78EF21C8808BF00AFC5BA /* Assets.xcassets */,
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF280501C8D754D00819E95 /* Person.swift in Sources */,
 				2AB78F1B1C88098D00AFC5BA /* Struct.swift in Sources */,
 				2AB78EEE1C8808BE00AFC5BA /* ViewController.m in Sources */,
 				2AB78EEB1C8808BE00AFC5BA /* AppDelegate.m in Sources */,
@@ -513,6 +517,7 @@
 				2AB78F121C8808BF00AFC5BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AB78F131C8808BF00AFC5BA /* Build configuration list for PBXNativeTarget "SwiftLearningTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				2AB78F151C8808BF00AFC5BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AB78F161C8808BF00AFC5BA /* Build configuration list for PBXNativeTarget "SwiftLearningUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				2AB78F181C8808BF00AFC5BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
