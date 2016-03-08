@@ -69,6 +69,19 @@ func test(){
 }
 
 
+// 这里就是继承了  override
+class Student:Person {
+    //子类想要重写父类的方法需要添加override关键字
+    override init(name newName: String, age newAge: Int) {
+        super.init(name: newName, age: newAge)
+    }
+    
+    //父类用class 修饰的类方法 是可以被子类重写的
+    override class func sayHello() {}
+    
+}
+
+
 
 
 
