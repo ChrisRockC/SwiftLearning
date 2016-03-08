@@ -11,7 +11,7 @@ import UIKit
 class Struct: NSObject {
     
     struct Frame {
-        // Swift 属性：存储属性  计算属性
+        // Swift 属性：存储属性  计算属性 这里并不需要赋上初始值
         //1.1 存储属性；存储作用
         var x :Float
         var y :Float

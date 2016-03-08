@@ -50,7 +50,26 @@ class Person{
         print(self.country)
     }
     
+
+
+    
 }
+
+//  6. 实例化person对象
+
+func test(){
+    let person :Person = Person(name: "小明", age: 18)
+    
+    // 这里是类似于OC对象方法
+    person.sayHi()
+    
+    //sayHello 是可以被子类重写的
+    Person.sayNihao()
+    Person.sayHello()
+}
+
+
+
 
 
 
