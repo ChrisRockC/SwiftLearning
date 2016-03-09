@@ -42,3 +42,4 @@ struct Book:myDelegate{
         return name
     }
 }
+
