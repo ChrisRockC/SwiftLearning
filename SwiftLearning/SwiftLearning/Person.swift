@@ -79,6 +79,7 @@ class Student:Person {
     //父类用class 修饰的类方法 是可以被子类重写的
     override class func sayHello() {}
     
+    
 }
 
 

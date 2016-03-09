@@ -18,6 +18,7 @@
 		2AB78F1B1C88098D00AFC5BA /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78F1A1C88098D00AFC5BA /* Struct.swift */; };
 		2AB78F1D1C892AF700AFC5BA /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78F1C1C892AF700AFC5BA /* SwiftViewController.swift */; };
 		2AF280501C8D754D00819E95 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2804F1C8D754D00819E95 /* Person.swift */; };
+		2AF280521C8EAADE00819E95 /* Protocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF280511C8EAADE00819E95 /* Protocal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		2AB78F1A1C88098D00AFC5BA /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		2AB78F1C1C892AF700AFC5BA /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		2AF2804F1C8D754D00819E95 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2AF280511C8EAADE00819E95 /* Protocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				2AB78EED1C8808BE00AFC5BA /* ViewController.m */,
 				2AB78F1A1C88098D00AFC5BA /* Struct.swift */,
 				2AF2804F1C8D754D00819E95 /* Person.swift */,
+				2AF280511C8EAADE00819E95 /* Protocal.swift */,
 				2AB78F1C1C892AF700AFC5BA /* SwiftViewController.swift */,
 				2AB78EEF1C8808BE00AFC5BA /* Main.storyboard */,
 				2AB78EF21C8808BF00AFC5BA /* Assets.xcassets */,
@@ -283,6 +286,7 @@
 			files = (
 				2AF280501C8D754D00819E95 /* Person.swift in Sources */,
 				2AB78F1B1C88098D00AFC5BA /* Struct.swift in Sources */,
+				2AF280521C8EAADE00819E95 /* Protocal.swift in Sources */,
 				2AB78EEE1C8808BE00AFC5BA /* ViewController.m in Sources */,
 				2AB78EEB1C8808BE00AFC5BA /* AppDelegate.m in Sources */,
 				2AB78F1D1C892AF700AFC5BA /* SwiftViewController.swift in Sources */,
