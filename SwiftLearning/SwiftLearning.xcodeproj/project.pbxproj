@@ -21,6 +21,7 @@
 		2AF280521C8EAADE00819E95 /* Protocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF280511C8EAADE00819E95 /* Protocal.swift */; };
 		2AF280541C90072A00819E95 /* CC-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF280531C90072A00819E95 /* CC-Extension.swift */; };
 		2AF280561C900B2400819E95 /* CC-Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF280551C900B2400819E95 /* CC-Enum.swift */; };
+		2AF280581C900D3300819E95 /* CC-闭包.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF280571C900D3300819E95 /* CC-闭包.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		2AF280511C8EAADE00819E95 /* Protocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocal.swift; sourceTree = "<group>"; };
 		2AF280531C90072A00819E95 /* CC-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CC-Extension.swift"; sourceTree = "<group>"; };
 		2AF280551C900B2400819E95 /* CC-Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CC-Enum.swift"; sourceTree = "<group>"; };
+		2AF280571C900D3300819E95 /* CC-闭包.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CC-闭包.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				2AF280511C8EAADE00819E95 /* Protocal.swift */,
 				2AF280531C90072A00819E95 /* CC-Extension.swift */,
 				2AF280551C900B2400819E95 /* CC-Enum.swift */,
+				2AF280571C900D3300819E95 /* CC-闭包.swift */,
 				2AB78F1C1C892AF700AFC5BA /* SwiftViewController.swift */,
 				2AB78EEF1C8808BE00AFC5BA /* Main.storyboard */,
 				2AB78EF21C8808BF00AFC5BA /* Assets.xcassets */,
@@ -295,6 +298,7 @@
 				2AF280521C8EAADE00819E95 /* Protocal.swift in Sources */,
 				2AF280561C900B2400819E95 /* CC-Enum.swift in Sources */,
 				2AB78EEE1C8808BE00AFC5BA /* ViewController.m in Sources */,
+				2AF280581C900D3300819E95 /* CC-闭包.swift in Sources */,
 				2AB78EEB1C8808BE00AFC5BA /* AppDelegate.m in Sources */,
 				2AF280541C90072A00819E95 /* CC-Extension.swift in Sources */,
 				2AB78F1D1C892AF700AFC5BA /* SwiftViewController.swift in Sources */,
