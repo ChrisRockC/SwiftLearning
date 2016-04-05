@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A406FDE1CB3B5DA003DB309 /* Swift介绍 in Resources */ = {isa = PBXBuildFile; fileRef = 2A406FDD1CB3B5DA003DB309 /* Swift介绍 */; };
 		2AB78EE81C8808BE00AFC5BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78EE71C8808BE00AFC5BA /* main.m */; };
 		2AB78EEB1C8808BE00AFC5BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78EEA1C8808BE00AFC5BA /* AppDelegate.m */; };
 		2AB78EEE1C8808BE00AFC5BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB78EED1C8808BE00AFC5BA /* ViewController.m */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A406FDD1CB3B5DA003DB309 /* Swift介绍 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Swift介绍"; sourceTree = "<group>"; };
 		2AB78EE31C8808BE00AFC5BA /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB78EE71C8808BE00AFC5BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AB78EE91C8808BE00AFC5BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				2AB78EF71C8808BF00AFC5BA /* Info.plist */,
 				2AB78EE61C8808BE00AFC5BA /* Supporting Files */,
 				2AB78F191C88098D00AFC5BA /* SwiftLearning-Bridging-Header.h */,
+				2A406FDD1CB3B5DA003DB309 /* Swift介绍 */,
 			);
 			path = SwiftLearning;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A406FDE1CB3B5DA003DB309 /* Swift介绍 in Resources */,
 				2AB78EF61C8808BF00AFC5BA /* LaunchScreen.storyboard in Resources */,
 				2AB78EF31C8808BF00AFC5BA /* Assets.xcassets in Resources */,
 				2AB78EF11C8808BE00AFC5BA /* Main.storyboard in Resources */,
